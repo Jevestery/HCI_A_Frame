@@ -11,6 +11,7 @@
     <a-scene background="color: #333333">
       <a-assets>
           <img id="wood" src="images/wood.jpg" />
+          <img id="grass" src="images/grass.jpg" />
       </a-assets>
 
       <a-box id="myBox"
@@ -24,6 +25,7 @@
       </a-box>
 
       <a-plane id="ground"
+        material="src: #grass; repeat: 15 15"
         position="0 0 -4"
         rotation="-90 0 0"
         width="100"
@@ -31,7 +33,7 @@
         color="#7BC8A4"
         shadow>
       </a-plane>
-      
+
     </a-scene>
   </body>
 </html>
