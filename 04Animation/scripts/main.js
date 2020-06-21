@@ -15,9 +15,9 @@ function spin(){
 }
 
 function move() {
-  if (moveCounter = 1) {
+  if (moveCounter == 1) {
     move = 0.1;
-  } else if (moveCounter = 50) {
+  } else if (moveCounter == 50) {
     move = -0.1;
   }
   myOtherBox.object3D.position.x += move;
