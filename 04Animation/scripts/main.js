@@ -12,10 +12,10 @@ function spin(){
 }
 
 function elongate() {
-  if (myOtherBox.object3D.width <= 3) {
-    myOtherBox.object3D.width += makeBigger;
-  } else if (myOtherBox.object3D.width >= 5) {
-    myOtherBox.object3D.width -= makeBigger;
+  if (myOtherBox.object3D.width <= -3) {
+    myOtherBox.object3D.position.z += makeBigger;
+  } else if (myOtherBox.object3D.width >= 3) {
+    myOtherBox.object3D.position.z -= makeBigger;
   }
 }
 
