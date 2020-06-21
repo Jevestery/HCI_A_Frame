@@ -12,11 +12,9 @@ function spin(){
 }
 
 function elongate() {
-  if (myOtherBox.object3D.position.z <= -3) {
-    myOtherBox.object3D.position.z += makeBigger;
-  } else if (myOtherBox.object3D.position.z >= 3) {
-    myOtherBox.object3D.position.z -= makeBigger;
-  }
+
+    myOtherBox.object3D.width += makeBigger;
+
 }
 
 setInterval(spin, 16); //equivalent to 60 fps
