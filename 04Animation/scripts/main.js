@@ -20,8 +20,8 @@ function move() {
   } else if (moveCounter = 50) {
     move = -0.1;
   }
-  myOtherBox.object3D.position.z += move;
-  myOtherBox.object3D.position.z += move;
+  myOtherBox.object3D.position.x += move;
+  myOtherBox.object3D.position.y += move;
   moveCounter++;
 }
 
