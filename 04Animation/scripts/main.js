@@ -13,7 +13,7 @@ function spin(){
 
 function elongate() {
 
-    myOtherBox.object3D.width += makeBigger;
+    myOtherBox.object3D.position.z += makeBigger;
 
 }
 
